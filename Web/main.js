@@ -6,17 +6,16 @@ const linhas = document.getElementById("linhas");
 
 envio.addEventListener('click', () => {
     validarEntrada(nome.value, cate.value);
+    nome.value = "";
+    cate.value = "";
 })
 
 function validarEntrada(nome, cate) {
     if(nome.length && cate.length > 0) {
-       alert('Jogo ' + nome +
-             'e categoria ' + cate + ' adicionados');
-       return true
+        alert(`O jogo ${nome} com a categoria ${cate} foi enviado`)
     }
     else{
         alert('Nome ou categoria está vazio')
-        return false
     }
 }
 

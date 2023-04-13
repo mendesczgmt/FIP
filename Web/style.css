@@ -50,6 +50,8 @@ body {
     margin-left: 10px;
     border-radius: 5px;
     border: 3px solid #95A7E8;
+    background-color: #95A7E8;
+    color: white;
 }
 
 #botoes {
@@ -66,6 +68,12 @@ body {
     border: 1px white;
 }
 
+.botoes:hover {
+    width: 100px;
+    background-color:#9B96FF;
+    cursor: pointer;
+}
+
 #tabela {
     display: flex;
     justify-content: center;
@@ -74,4 +82,5 @@ body {
 .linha {
     margin: 10px;
     padding: 10px;
+    border-bottom: 1px solid white;
 }
