@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-spacing: 0;
+}
+
+body {
+    background-color: #7E4AED;
+    color: #E2F4CC;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    padding: 10px;
+    background-color: #A295BF;
+    width: 700px;
+    border-radius: 30px;
+    margin: 20px 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+#body {
+    background-color: #A295BF;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+#fotos {
+    margin: 15px;
+}
+
+
+#fother {
+    background-color: #A295BF;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 10px;
+}
+
+#desafio1 {
+    background-color: #A295BF;
+    width: 65%;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.desafio {
+    display: flex;
+    justify-content: center;
+}
+
+#containerTable {
+    display: flex;
+    justify-content: center;
+    background-color: #7E4AED;
+    border: solid 1px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+#tabela {
+    display: flex;
+    text-align: center;
+
+}
+
+.comeco {
+    padding: 0px 60px 3px;
+    margin: 5px;
+    border-bottom: solid 1px wheat;
+    margin: 1px;
+    text-align: center;
+    font-size: medium;
+}
+
+tr > td {
+    padding: 2px 60px 2px 60px;
+    font-size: medium;
+}
+
+.coluna:hover{
+    background-color: #65A2F7;
+}
+
+ .final {
+    padding: 4px 60px 3px;
+    margin: 5px;
+    border-top: solid 1px wheat;
+    margin: 1px;
+    text-align: center;
+    font-size: medium;
+}
+
+#desafio2 {
+    background-color: #A295BF;
+    width: 65%;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#piramide {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+#um {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #586BD6;
+    border-right: 3px solid #63EBF9;
+    border-bottom: 3px solid #63EBF9;
+    border-left: 3px solid #B248F0;
+    border-top: 3px solid #B248F0;
+    padding: 5px;
+    margin: 2px;
+    width: 900px;
+    height: 200px;
+}
+
+#dois {
+    background-color: #586BD6;
+    border-right: 3px solid #63EBF9;
+    border-bottom: 3px solid #63EBF9;
+    border-left: 3px solid #B248F0;
+    border-top: 3px solid #B248F0;
+    padding: 5px;
+    margin: 2px;
+    width: 850px;
+    height: 180px;
+}
+
+#tres {
+    background-color: #586BD6;
+    border-right: 3px solid #63EBF9;
+    border-bottom: 3px solid #63EBF9;
+    border-left: 3px solid #B248F0;
+    border-top: 3px solid #B248F0;
+    width: 830px;
+    height: 160px;
+    padding: 5px;
+    margin: 2px;
+}
+
+#quatro {
+    background-color: #586BD6;
+    border-right: 3px solid #63EBF9;
+    border-bottom: 3px solid #63EBF9;
+    border-left: 3px solid #B248F0;
+    border-top: 3px solid #B248F0;
+    width: 810px;
+    height: 140px;
+    padding: 5px;
+    margin: 2px;
+}
+
+#quatro {
+    background-color: #586BD6;
+    border-right: 3px solid #63EBF9;
+    border-bottom: 3px solid #63EBF9;
+    border-left: 3px solid #B248F0;
+    border-top: 3px solid #B248F0;
+    width: 807px;
+    height: 140px;
+    padding: 5px;
+    margin: 2px;
+}
+
+#cinco {
+    background-color: #586BD6;
+    border-right: 3px solid #63EBF9;
+    border-bottom: 3px solid #63EBF9;
+    border-left: 3px solid #B248F0;
+    border-top: 3px solid #B248F0;
+    width: 785px;
+    height: 120px;
+    padding: 5px;
+    margin: 2px;
+}
+
+#seis {
+    background-color: #586BD6;
+    border-right: 3px solid #63EBF9;
+    border-bottom: 3px solid #63EBF9;
+    border-left: 3px solid #B248F0;
+    border-top: 3px solid #B248F0;
+    width: 765px;
+    height: 100px;
+    padding: 5px;
+    margin: 2px;
+}
+
+#centro {
+    
+    background-color: #4F8AE3;
+    border-right: 3px solid #63EBF9;
+    border-bottom: 3px solid #63EBF9;
+    border-left: 3px solid #B248F0;
+    border-top: 3px solid #B248F0;
+    width: 745px;
+    height: 80px;
+    padding: 5px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#desafio3 {
+    background-color: #A295BF;
+    width: 65%;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#alinhar {
+    margin-top:8px ;
+    display: flex;
+    justify-content: center;
+}
+
+#esquerda {
+    background-color: #4F8AE3;
+    width: 70px;
+}
+
+.centro {
+    background-color: #B248F0;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#direita {
+    background-color: #4F8AE3;
+    width: 70px;
+}
+
+#desafio4 {
+    background-color: #A295BF;
+    width: 65%;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
