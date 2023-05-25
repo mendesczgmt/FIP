@@ -2,11 +2,11 @@
     pageEncoding="UTF-8"%>
 <%@ page import="java.util.List, br.com.unifip.veiculos.servlet.Veiculo"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <link rel="stylesheet" type="text/css" href="Style.css">
 <c:url value="FormNovoVeiculo.jsp" var="linkFormCadastrarVeiculo"/>
 <c:url value="Home.jsp" var="linkHomeVeiculo"/>
 <c:url value="removeVeiculo" var="linkServletRemoveVeiculo"/>
+<c:url value="mostrarVeiculos" var="linkServletMostrarVeiculo"/>
 
 <!DOCTYPE html>
 <html>
@@ -29,7 +29,8 @@
 					${veiculo.id}
 					${veiculo.nome}
 					${veiculo.marca}
-					<a class="remove" href="${linkServletRemoveVeiculo}?id=${veiculo.id}">❌</a> 
+					<a class="remove" href="${linkServletRemoveVeiculo}?id=${veiculo.id}">❌</a>
+					<a class="remove" href="${linkServletMostrarVeiculo}?id=${veiculo.id}">✏️</a> 
 				</li>
 			</c:forEach>
 		</ul>

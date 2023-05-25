@@ -28,5 +28,14 @@ public class Banco{
 		return Banco.lista;	
 	}
 
+	public Veiculo BuscaVeiculo(Integer id) {
+		for (Veiculo veiculo : lista) {
+			if(veiculo.getId() == id) {
+				return veiculo;
+			}
+		}
+		return null;
+	}
+
 	
 }
