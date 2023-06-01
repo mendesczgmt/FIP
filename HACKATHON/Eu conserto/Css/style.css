@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+#logo img{
+  width: 100px;
+  height: 100px;
+}
+
+#logoLogin img{
+  width: 100px;
+  height: 100px;
+}
+
+#imagemLogin {
+  justify-content: center;
+  display: flex;
+  padding: 30px;
+}
+
+#imagemLogin img {
+  width: 150px;
+  height: 150px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+
+.navbarLogin {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.navbar a {
+  font-family: 'Roboto', sans-serif;
+  color: #192C4D;
+  text-decoration: none;
+  margin: 10px;
+  font-size: medium;
+}
+
+#main {
+  justify-content: center;
+  display: flex;
+}
+
+.navbar a:visited {
+  text-decoration: underline;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  padding: 5px;
+  background-color: #BB4902;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#ativo {
+  padding: 5px;
+  background-color: #BB4902;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: large;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.body img{
+  height: 490px;
+  border-radius:10px ;
+}
+
+#form {
+  max-width: 50%;
+  background-color: #BB4902;
+  border-radius: 20px;
+  padding: 36px 64px;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0 0.08);
+}
+
+.CampoTexto {
+  margin: 24px 0;
+}
+
+.CampoTexto label {
+  
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.CampoTexto input, select {
+  background-color: #fff;
+  box-shadow: 8px 8px 10px rgb(187, 30, 2);
+  width: 100%;
+  border: none; 
+  font-size: 24px;
+  padding: 24px;
+}
+
+.duplo {
+  display: flex;
+}
+
+.duplo input {
+  width: 80%;
+}
+
+#lista {
+  display: none;
+}
+
+.button input{
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  box-shadow: 8px 8px 10px rgb(187, 30, 2) ;
+  width: 20%;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+#remember a{
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+#final {
+  display: flex;
+  justify-content: center;
+}
+
+#BotoesLogin a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(187, 30, 2);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}

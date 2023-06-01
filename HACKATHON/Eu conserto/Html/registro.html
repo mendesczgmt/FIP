@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Eu conserto</title>
+</head>
+
+<body>
+    <div id="app">
+        <div id="footer">
+            <div id="logo"> <img src="../Publics/logo- preview.png" alt="Nosso logo"></div>
+            <aside class="navbar">
+                <a href="index.html">Home</a>
+                <a href="registro.html" id="ativo">Register</a>
+                <a href="login.html">Login</a>
+            </aside>
+        </div>
+    </div>
+    <div class="body">
+        <div id="form">
+            <form action="submit">
+                <select class="CampoTexto" name="user" id="usuario">
+                    <option class="listaSuspensa" value="Consumidor">Consumidor</option>
+                    <option class="listaSuspensa" value="prestador">fornecedor de serviços</option>
+                </select>
+                <div id="lista">
+                        <select class="CampoTexto" name="user" id="servicos">
+                            <option class="listaSuspensa" value="prestador">Área de serviços</option>
+                            <option class="listaSuspensa" value="Mêcanica">Mêcanica</option>
+                            <option class="listaSuspensa" value="Elétrica em geral">Elétrica em geral</option>
+                            <option class="listaSuspensa" value="Borracharia">Borracharia</option>
+                            <option class="listaSuspensa" value="Ar condicionado">Ar condicionado</option>
+                        </select>
+                </div>
+                <div class="duplo">
+                    <div class="CampoTexto">
+                        <label for="Nome">Nome</label>
+                        <input type="text" placeholder="Nome">
+                    </div>
+                    <div class="CampoTexto">
+                        <label for="Sobrenome"> Sobrenome</label>
+                        <input type="text" placeholder="Sobrenome">
+                    </div>
+                </div>
+                <div class="CampoTexto">
+                    <label for="cpf">CPF</label>
+                    <input type="text" placeholder="cpf">
+                </div>
+                <div class="CampoTexto">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" placeholder="Telefone (DDD)">
+                </div>
+
+                <div class="duplo">
+                    <div class="CampoTexto">
+                        <label for="Cidade">Cidade</label>
+                        <input type="text" placeholder="Cidade">
+                    </div>
+                    <div class="CampoTexto">
+                        <label for="Estado"> Estado</label>
+                        <input type="text" placeholder="Estado">
+                    </div>
+                </div>
+                <div class="CampoTexto">
+                    <label for="cpf">CPF</label>
+                    <input type="text" placeholder="cpf">
+                </div>
+                <div class="button">
+                    <input type="button" value="Enviar">
+                </div>
+        </div>
+
+
+        </form>
+    </div>
+    </div">
+
+    <script src="../Scripts/index.js"></script>
+</body>
+
+</html>
