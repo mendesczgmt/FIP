@@ -48,3 +48,35 @@ body {
     justify-content: center;
     padding: 35px;
 }
+
+.conserto {
+   display:flex;
+   justify-content:center;
+   align-items: center
+}
+
+.conserto p {
+    width: 20%;
+    border: solid 1px black;
+    padding: 10px;
+    margin: 10px;
+ }
+
+.conserto img {
+    height: 50px;
+    width: 50px;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#menu img{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+}
+
+

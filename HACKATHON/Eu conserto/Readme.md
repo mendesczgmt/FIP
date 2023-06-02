@@ -1,5 +1,4 @@
 ## PROJETO EU CONSERTO
-[Imgur](https://i.imgur.com/Pdt8w7W.jpg)
 
 O projeto "Eu conserto" é um aplicativo e site para web que permite aos usuários solicitar serviços de reparo e    manutenção para seus veículos de forma rápida, conveniente e segura. Com este aplicativo e site, os usuários podem solicitar ajuda quando seus veículos quebram e encontrar profissionais qualificados nas proximidades que possam oferecer assistência imediata.
     
@@ -8,7 +7,7 @@ O projeto "Eu conserto" é um aplicativo e site para web que permite aos usuári
 Solicitação de Serviço: Os usuários podem solicitar serviços de reparo e manutenção para seus veículos através do aplicativo. Eles podem fornecer detalhes sobre o problema, como a descrição dos sintomas e a localização atual do veículo.
 
 Encontre o profissional:
-    O aplicativo faz a varredura na área e encontra profissionais qualificados disponíveis nas proximidades do usuário que possam atender à solicitação de serviço. É feito um tipo de pesquisa com base na disponibilidade, habilidades e classificações dos profissionais.
+O aplicativo faz a varredura na área e encontra profissionais qualificados disponíveis nas proximidades do usuário que possam atender à solicitação de serviço. É feito um tipo de pesquisa com base na disponibilidade, habilidades e classificações dos profissionais.
 
 Chat em Tempo Real: O aplicativo oferece um recurso de chat em tempo real, permitindo que os usuários se comuniquem diretamente com os profissionais para discutir detalhes adicionais ou tirar dúvidas antes de confirmar o serviço.
 
