@@ -1,5 +1,6 @@
 ## PROJETO EU CONSERTO
-[Imgur](https://imgur.com/CUz3C9n)
+[![License](https://imgur.com/CUz3C9n)](LICENSE.md)
+
 O projeto "Eu conserto" é um aplicativo e site para web que permite aos usuários solicitar serviços de reparo e    manutenção para seus veículos de forma rápida, conveniente e segura. Com este aplicativo e site, os usuários podem solicitar ajuda quando seus veículos quebram e encontrar profissionais qualificados nas proximidades que possam oferecer assistência imediata.
     
 
