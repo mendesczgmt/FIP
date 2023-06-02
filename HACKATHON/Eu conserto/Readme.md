@@ -1,7 +1,7 @@
 ## PROJETO EU CONSERTO
     O projeto "Eu conserto" é um aplicativo e site para web que permite aos usuários solicitar serviços de reparo e    manutenção para seus veículos de forma rápida, conveniente e segura. Com este aplicativo e site, os usuários podem solicitar ajuda quando seus veículos quebram e encontrar profissionais qualificados nas proximidades que possam oferecer assistência imediata.
 
-    [![License](https://github.com/mendesczgmt/FIP/blob/main/HACKATHON/Eu%20conserto/Publics/logo-%20preview.png)](LICENSE.md)
+    image.png
 
 ## PRINCIPAIS FUNCIONALIDADES:
     Solicitação de Serviço: Os usuários podem solicitar serviços de reparo e manutenção para seus veículos através do aplicativo. Eles podem fornecer detalhes sobre o problema, como a descrição dos sintomas e a localização atual do veículo.
