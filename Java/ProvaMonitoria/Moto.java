@@ -14,6 +14,6 @@ public class Moto extends Veiculo{
     }
 
     public String ligarVeiculo() {
-        return "Moto ligado";
+        return "Moto ligada";
     }
 }

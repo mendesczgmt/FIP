@@ -20,5 +20,4 @@ class Carro extends Veiculo {
         return false;
     }
     
-    
 }
