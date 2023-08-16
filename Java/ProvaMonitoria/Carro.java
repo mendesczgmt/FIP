@@ -19,5 +19,12 @@ class Carro extends Veiculo {
         }
         return false;
     }
+
+    public boolean acelerarCarro(boolean modoVeiculo) {
+        if(ligarVeiculo(modoVeiculo)) {
+            return true;
+        }
+        return false;
+    }
     
 }

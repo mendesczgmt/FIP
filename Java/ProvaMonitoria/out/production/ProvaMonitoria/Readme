@@ -1,0 +1,13 @@
+Final - POO
+Nome: Gabryel Mendes
+Encapsulamento e Composição
+O encapsulamento é basicamente uma forma de esconder os detalhes de uma classe ou objeto, também evitando o acesso diretamente a ele, sendo a única forma de acessar métodos que sejam criados posteriormente, melhorando assim a segurança, reutilização e manutenção do código. A composição é a forma de criar um objeto complexo apenas com a junção de outros objetos. 
+Vamos supor que temos a classe pessoa com os atributos Nome e CPF, no lugar de deixar esses atributos público e de fácil acesso, privamos ele e a partir disso, só poderemos acessar via get e set, isso seria encapsulamento. Agora vamos supor que temos a classe empresa, essa empresa possui a classe funcionário que possui a classe pessoa, isso seria uma composição
+Herança e polimorfismo
+Crie um código em Java que demonstre a utilização da herança e os três tipos de polimorfismo (sobrecarga, sobreposição e inclusão)
+Classe Abstrata e Interface
+A classe abstrata ela vai servir apenas de modelo para as classes que a estendem, ou seja a abstrata ela não pode ser diretamente instanciada. A interface ela apenas define o nome, tipo e retorno do método e as classes que implementam devem fazer também a implementação dos métodos.
+Tratamento de Exceções
+Crie uma exceção e aplique em um dos exemplos anteriores
+Teste de Unidade
+Explique e aplique o teste de unidade em um dos exemplos anteriores

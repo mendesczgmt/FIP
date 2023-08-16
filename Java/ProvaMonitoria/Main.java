@@ -15,6 +15,10 @@ public class Main {
     
         System.out.println(moto1.ligarVeiculo());
         
-        
+        try {
+            System.out.println(veiculos[5]);
+        } catch (Exception e) {
+            System.out.println("Não possui o veiculo desejado");
+        }
     }
 }
