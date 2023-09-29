@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+C:\Users\gabry\OneDrive\Área de Trabalho\Gabryel\FIP\Web\Prova 01\.metadata\.plugins\org.eclipse.jdt.core
+2038208924.index
+456790899.index
+1865797976.index
