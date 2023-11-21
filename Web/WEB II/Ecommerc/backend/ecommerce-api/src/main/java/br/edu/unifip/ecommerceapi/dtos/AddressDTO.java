@@ -1,19 +1,18 @@
 package br.edu.unifip.ecommerceapi.dtos;
 
+import br.edu.unifip.ecommerceapi.models.Address;
 import jakarta.validation.constraints.NotBlank;
-import org.jetbrains.annotations.NotNull;
 
-import java.util.UUID;
-
-public record AddressDTO(
-        @NotNull
-        UUID id,
+public record  AddressDTO(
+        Long id,
         @NotBlank
-        String logradouro,
+    String uf,
         @NotBlank
-        String bairro,
+    String bairro,
         @NotBlank
-        String cidade,
-        @NotBlank
-        String uf) {
+    String rua
+)   {
+    public AddressDTO(Address address){
+            this(address.getId(), address.getUf(), address.getBairro(), address.getRua());
+        }
 }

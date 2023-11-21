@@ -6,6 +6,8 @@ import br.edu.unifip.ecommerceapi.repositories.AddressRepository;
 import br.edu.unifip.ecommerceapi.services.AddresService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
@@ -19,57 +21,54 @@ import java.util.UUID;
 @RequestMapping("address")
 public class AddressController {
 
-    final AddresService addressService;
+
+    final AddresService addresService;
 
     public AddressController(AddresService addresService) {
-        this.addressService = addresService;
+        this.addresService = addresService;
     }
 
     @Autowired
-    private AddressRepository addressRepository;
+    private AddressRepository repository;
+
 
     @PostMapping
     @Transactional
-    public void createAddress(@RequestBody @Valid AddressDTO addressDTO) {
-        addressRepository.save(new Address(addressDTO));
+    public void cadastrarEndereco(@RequestBody @Valid AddressDTO address){
+        repository.save(new Address(address));
     }
 
     @GetMapping
-    public ResponseEntity<Optional<Address>> getAddressByUserId(@PathVariable UUID Id) {
-        Optional<Address> addressDTO = addressService.findById(Id);
-        if (addressDTO != null) {
-            return ResponseEntity.ok(addressDTO);
-        } else {
-            return ResponseEntity.notFound().build();
-        }
+    public Page<AddressDTO> listarEnderecos(Pageable paginacao) {
+        return repository.findAll(paginacao).map(AddressDTO::new);
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Object> getAddressById(@PathVariable(value = "id") UUID id) {
-        Optional<Address> addressOptional = addressService.findById(id);
-        if (addressOptional.isEmpty()) {
+    public ResponseEntity<Object> getEnderecoById(@PathVariable(value = "id") Long id) {
+        Optional<Address> adressOptional = addresService.findById(id);
+        if (adressOptional.isEmpty()) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Address not found.");
         }
-        return ResponseEntity.status(HttpStatus.OK).body(addressOptional.get());
+        return ResponseEntity.status(HttpStatus.OK).body(adressOptional.get());
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Object> deleteAddress(@PathVariable(value = "id") UUID id) {
-        Optional<Address> addressOptional = addressService.findById(id);
-        if (addressOptional.isEmpty()) {
+    public ResponseEntity<Object> deleteEndereco(@PathVariable(value = "id") Long id) {
+        Optional<Address> enderecoOptional = addresService.findById(id);
+        if (enderecoOptional.isEmpty()) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Address not found.");
         }
-        addressService.Delete(addressOptional.get());
+        addresService.Delete(enderecoOptional.get());
         return ResponseEntity.status(HttpStatus.OK).body("Address deleted successfully.");
     }
 
     @PatchMapping("/{id}")
-    public ResponseEntity<Object> updateAddress(@PathVariable(value = "id") UUID id, @RequestBody Map<Object, Object> objectMap) {
-        Optional<Address>addressOptional = addressService.findById(id);
-        if (addressOptional.isEmpty()) {
+    public ResponseEntity<Object> updateEndereco(@PathVariable(value = "id") Long id, @RequestBody Map<Object, Object> objectMap) {
+        Optional<Address> adressOptional = addresService.findById(id);
+        if (adressOptional.isEmpty()) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Address not found.");
         }
-        addressService.partialUpdate(addressOptional.get(), objectMap);
+        addresService.partialUpdate(adressOptional.get(), objectMap);
         return ResponseEntity.status(HttpStatus.OK).body("Address updated successfully.");
     }
 

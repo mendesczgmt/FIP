@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c247b254-8704-4370-989d-08423b61fdfa" name="Changes" comment="" />
+    <list default="true" id="c247b254-8704-4370-989d-08423b61fdfa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mobile/HelloKotlin/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/WEB II/Ecommerc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/WEB II/Ecommerc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/WEB II/Ecommerc/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/WEB II/Ecommerc/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/WEB II/Ecommerc/backend/ecommerce-api/src/main/java/br/edu/unifip/ecommerceapi/controllers/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/WEB II/Ecommerc/backend/ecommerce-api/src/main/java/br/edu/unifip/ecommerceapi/controllers/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/WEB II/Ecommerc/backend/ecommerce-api/src/main/java/br/edu/unifip/ecommerceapi/dtos/AddressDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/WEB II/Ecommerc/backend/ecommerce-api/src/main/java/br/edu/unifip/ecommerceapi/models/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/WEB II/Ecommerc/backend/ecommerce-api/src/main/java/br/edu/unifip/ecommerceapi/models/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/WEB II/Ecommerc/backend/ecommerce-api/src/main/java/br/edu/unifip/ecommerceapi/repositories/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/WEB II/Ecommerc/backend/ecommerce-api/src/main/java/br/edu/unifip/ecommerceapi/repositories/AddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/WEB II/Ecommerc/backend/ecommerce-api/src/main/java/br/edu/unifip/ecommerceapi/services/AddresService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/WEB II/Ecommerc/backend/ecommerce-api/src/main/java/br/edu/unifip/ecommerceapi/services/AddresService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2W3DnMQiS8seK7k8wT8m65J8H5H" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -15,7 +47,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/gabry/OneDrive/Área de Trabalho/Gabryel/FIP"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
